@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Cache Clearer",
+    "description": "An extension that clears current tab cookie",
+    "version": "1.0",
+    "permissions": ["activeTab", "storage", "cookies", "tabs"],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "host_permissions": ["<all_urls>"],
+    "action": {}
+}
